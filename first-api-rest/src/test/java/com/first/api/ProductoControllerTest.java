@@ -90,7 +90,7 @@ public class ProductoControllerTest {
 
         String resultado = productoController.eliminarProducto(1);
 
-        assertNotNull(resultado);
+        //assertNotNull(resultado);
         assertEquals("Producto eliminado !!1", resultado);
         verify(productoService, times(1)).deleteProducto(1);
     }
