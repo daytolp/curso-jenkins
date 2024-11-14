@@ -43,7 +43,7 @@ public class HelloController {
 
     @GetMapping("/hello7")
     public String saludar7(){
-        return "Hola Mundo con REST en Spring Boot 8";
+        return "Hola Mundo con REST en Spring Boot 9";
     }
 }
 }
